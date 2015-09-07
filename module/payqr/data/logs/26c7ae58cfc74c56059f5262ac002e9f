@@ -1,0 +1,40 @@
+
+==============2015-06-19 14:32:08==============
+
+============================
+
+==============2015-06-19 14:32:08==============
+payqr_receiver::receiving()
+============================
+
+==============2015-06-19 14:32:08==============
+C:\Users\1\Documents\Projects\others\payqr\payqr\classes\payqr_authentication.php
+payqr_authentication::checkHeader
+ L:43
+ Входящий секретный ключ из headers не совпадает с входящим ключом из файла конфигурации 
+ Текущее значение SecretKeyIn из вашего payqr_config.php: TXLvt&3vUVLS5%&XZ82j 
+ Содержание headers полученного уведомления от PayQR: Array
+(
+    [Host] => payqr.lan
+    [Connection] => keep-alive
+    [Cache-Control] => max-age=0
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+    [Accept-Encoding] => gzip, deflate, sdch
+    [Accept-Language] => en-US,en;q=0.8
+    [Cookie] => PHPSESSID=e8mqrenu3ji20hbf38ucnanfb0
+    [host] => payqr.lan
+    [connection] => keep-alive
+    [cache-control] => max-age=0
+    [accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [user-agent] => Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+    [accept-encoding] => gzip, deflate, sdch
+    [accept-language] => en-US,en;q=0.8
+    [cookie] => PHPSESSID=e8mqrenu3ji20hbf38ucnanfb0
+)
+
+============================
+
+==============2015-06-19 14:32:08==============
+Вызвано исключение : Error on line 35 in C:\Users\1\Documents\Projects\others\payqr\payqr\classes\payqr_receiver.php: <b>Неверный параметр ['PQRSecretKey'] в header уведомления</b>
+============================
